@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  --background-color: #ffffff;
+  --color-letter: #000000;
+}
+
+html.dark{
+  --background-color: #1c1c1c;
+  --color-letter: #ffffff;
+  --color-10: #adff2f;
+  --color-30: #2c2f30;
+  --color-60: #1e2122;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: var(--background-color);
+  color: var(--color-letter);
+}
+
+input{
+  background: transparent;
+}
