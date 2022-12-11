@@ -48,7 +48,7 @@ function Login({ }) {
           <h2 className='text-rose text-xl'>You must log in to access the content</h2>
           <form onSubmit={handleSubmit} className="pt-4">
             <input type="text" name="user" ref={userInput} placeholder='user' id='user' className='bg-color-30 text-color-10 p-2 placeholder:text-[#8ACB28] rounded w-full' />
-            <input type="text" name="password" ref={passwordInput} placeholder='password' id='password' className='bg-color-30 text-color-10 p-2 placeholder:text-[#8ACB28] rounded w-full mt-3' />
+            <input type="password" name="password" ref={passwordInput} placeholder='password' id='password' className='bg-color-30 text-color-10 p-2 placeholder:text-[#8ACB28] rounded w-full mt-3' />
             <input type="submit" value="Send" className='bg-color-30 p-2 text-color-10 border-b mt-3 hover:text-rose duration-200' />
           </form>
         </div>
